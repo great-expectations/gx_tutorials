@@ -1,0 +1,27 @@
+# This is an example dbt_profile.yml file that should live in your .dbt
+# directory that's set up during `dbt init`. It is only included in this repo as an example.
+
+# For more information on how to configure this file, please see:
+# https://docs.getdbt.com/docs/profile
+
+ge_tutorials:
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: postgres
+      port: 5432
+      user: airflow
+      pass: airflow
+      dbname: airflow
+      schema: public
+    prod:
+      type: postgres
+      threads: 1
+      host: postgres
+      port: 5432
+      user: airflow
+      pass: airflow
+      dbname: airflow
+      schema: public
+  target: dev
