@@ -5,7 +5,7 @@ This repository contains the material for a number of Great Expectations tutoria
 **We invite community contributions for these tutorials!**
 
 
-## getting_started_tutorial_final_v3_api [TBD]
+## getting_started_tutorial_final_v3_api
 This example contains the final state of the "Getting started with Great Expectations" tutorial for the Great 
 Expectations API v3 (Batch Kwargs API), which is included in Great Expectations version 0.13 and above. 
 It also acts as a starting point to explore and demo Great Expectations. See the README in the directory for details.
