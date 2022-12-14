@@ -19,3 +19,8 @@ to explore and demo Great Expectations. See the README in the directory for deta
 This example demonstrates the use of Great Expectations in a data pipeline with dbt and Apache Airflow. 
 See the README in the directory for details. **Note** This tutorial currently requires an update to work with the 
 new-style Checkpoints that were introduced in version 0.13.8.
+
+## gx_glue_catalog_tutorial
+This example contains a quickstart notebook and terraform code to setup required resources into your AWS account
+to show how [Great Expectations](https://greatexpectations.io) can be used together with [AWS Glue Data Catalog](https://docs.aws.amazon.com/glue/latest/dg/catalog-and-crawler.html) 
+to validate your data lake through tables organized into databases.
