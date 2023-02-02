@@ -5,10 +5,10 @@ from opentelemetry.exporter.prometheus import PrometheusMetricReader
 from opentelemetry.metrics import get_meter_provider, set_meter_provider
 from opentelemetry.sdk.metrics import MeterProvider
 from opentelemetry.sdk.metrics.view import ExplicitBucketHistogramAggregation, View
-from prometheus_client import start_http_server
+import prometheus_client
 
 # Start Prometheus client
-start_http_server(port=8000, addr="0.0.0.0")
+prometheus_client.start_http_server(port=8000, addr="0.0.0.0")
 # Exporter to export metrics to Prometheus
 prefix = "FlaskPrefix"
 reader = PrometheusMetricReader(prefix)
