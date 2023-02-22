@@ -1,0 +1,4 @@
+flask
+opentelemetry-exporter-jaeger
+opentelemetry-sdk
+requests
