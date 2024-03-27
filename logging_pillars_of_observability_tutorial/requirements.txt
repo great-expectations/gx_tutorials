@@ -1,2 +1,2 @@
-Flask==2.2.2
+Flask==3.0.2
 structlog==22.3.0
